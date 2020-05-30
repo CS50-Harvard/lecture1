@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+  <head>
+    <title>
+      Print HTML
+    </title>
+    <style>
+      @media print{
+        .screen-only{
+          display : none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p>This is the first paragraph</p>
+    <p>This is the second paragraph</p>
+    <p class="screen-only">This paragraph won't appear at the time of print</p>
+  </body>
+</html>

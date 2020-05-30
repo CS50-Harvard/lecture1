@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+  <head>
+    <title>
+      Responsive1 html
+    </title>
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <style>
+      @media(min-width : 800px)
+      {
+        h1::before{
+          content: "Welcome to My Website developed by Pranav";
+        }
+      }
+
+      @media(max-width : 799px)
+      {
+        h1::before{
+          content : "Welcome";
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1></h1>
+  </body>
+</html>
